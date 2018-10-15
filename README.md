@@ -13,3 +13,5 @@ Kaggle has provided alarge number of anonymized PUBG game(Mobile Game) stats, fo
 ### Aim
 
 The aim of this project is to create a machine learning based algorithm on a real-world dataset from Kaggle’s PUBG Mobile game competition which predicts players’(game players’) finishing placement(rank) based on their final stats(features), on a scale from 1 (first place) to 0 (last place) . 
+
+[](https://www.kaggle.com/c/pubg-finish-placement-prediction/data)
