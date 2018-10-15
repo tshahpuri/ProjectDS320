@@ -1,37 +1,15 @@
-## Welcome to GitHub Pages
+## Kaggle Project PUBG
 
-You can use the [editor on GitHub](https://github.com/tshahpuri/ProjectDS320/edit/master/README.md) to maintain and preview the content for your website in Markdown files.
+### Team Members:
 
-Whenever you commit to this repository, GitHub Pages will run [Jekyll](https://jekyllrb.com/) to rebuild the pages in your site, from the content in your Markdown files.
+Tejas Shahpuri
 
-### Markdown
+### Introduction
 
-Markdown is a lightweight and easy-to-use syntax for styling your writing. It includes conventions for
+In a PUBG game, approximately 100 players start the game. These players could be in teams (groupId) which get ranked after each game (winPlacePerc) based on how many other teams are still alive when they are eliminated. In game, players can pick up different munitions, revive downed-but-not-out (knocked) teammates, drive vehicles, swim, run, shoot, and experience all of the consequences -- such as falling too far or running themselves over and eliminating themselves.
 
-```markdown
-Syntax highlighted code block
+Kaggle has provided alarge number of anonymized PUBG game(Mobile Game) stats, formatted so that each row contains one player's post-game stats. The data comes from matches of all types: solos, duos, squads, and custom; there is no guarantee of there being 100 players per match, nor at most 4 player per group.
 
-# Header 1
-## Header 2
-### Header 3
+### Aim
 
-- Bulleted
-- List
-
-1. Numbered
-2. List
-
-**Bold** and _Italic_ and `Code` text
-
-[Link](url) and ![Image](src)
-```
-
-For more details see [GitHub Flavored Markdown](https://guides.github.com/features/mastering-markdown/).
-
-### Jekyll Themes
-
-Your Pages site will use the layout and styles from the Jekyll theme you have selected in your [repository settings](https://github.com/tshahpuri/ProjectDS320/settings). The name of this theme is saved in the Jekyll `_config.yml` configuration file.
-
-### Support or Contact
-
-Having trouble with Pages? Check out our [documentation](https://help.github.com/categories/github-pages-basics/) or [contact support](https://github.com/contact) and we’ll help you sort it out.
+The aim of this project is to create a machine learning based algorithm on a real-world dataset from Kaggle’s PUBG Mobile game competition which predicts players’(game players’) finishing placement(rank) based on their final stats(features), on a scale from 1 (first place) to 0 (last place) . 
