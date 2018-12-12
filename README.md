@@ -83,7 +83,9 @@ will analyse different player strategies such as killing and running, which
 directly correspond to the attributes in the data. Also we will analyse how
 these strategies or attributed are correlated to the the variable we have to
 predict i.e player rank (winPlacePerc).
-Killers:
+
+#### Killers:
+
 The first strategy we will take a look at is killing.
 Just by looking at the bigger picture of the data we find out that the average
 kills a person gets in one round is approximately 0.94 players. With that,
@@ -141,7 +143,8 @@ This is a box plot reflects the distribution of the attribute “winPlacePerc”
 of enemy players killed by a player).
 We observe that there is a positive relationship with the number of kills in
 a round and the percentage of winning.
-Runners:
+
+#### Runners:
 
 The second strategy we will take a look at is running.
 Just by looking at the bigger picture of the data we find out that the average
@@ -172,7 +175,9 @@ This is a joint plot which reflects the relationship between the attribute
 “walkingDistance” and “winPlacePerc”.
 By this visualization it seems very clear that walking distance has a very
 high correlation with winPlacePerc or percentage of winning.
-Drivers:
+
+#### Drivers:
+
 The third strategy we will take a look at is driving.
 Just by looking at the bigger picture of the data we find out that the average
 person drives for approximately 420 m in one round. Also, one player was
@@ -217,9 +222,9 @@ Top 5 most positive correlated attributes with the winPlacePerc.
 
 As we can see from the plot above, the top five variables which are most
 positively correlated with the target variable winPlacePerc are:
-➔ “walkDistance - Total distance traveled on foot measured in meters.
-➔ boosts - Number of boost items used.
-➔ weaponsAcquired - Number of weapons picked up.
+* “walkDistance - Total distance traveled on foot measured in meters.
+* boosts - Number of boost items used.
+* weaponsAcquired - Number of weapons picked up.
 ➔ damageDealt - Total damage dealt. Note: Self inflicted damage is subtracted.”
 Pearson correlation between variables:
 
