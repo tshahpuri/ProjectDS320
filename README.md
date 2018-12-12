@@ -202,7 +202,7 @@ with winPlacePerc or percentage of winning.
 
 ### PREDICTION
 
-#####Method:
+### Method:
 
 1. First we calculate the correlation to find out the whether there is
 relationship between attributes and the target “winPlacePerc”.
@@ -211,7 +211,7 @@ new attributes that would help improve our model.
 3. Next would be training our machine learning model on our feature
 set to predict the the finishing rank of players in our dataset.
 
-###CORRELATION:
+### CORRELATION:
 
 Top 5 most positive correlated attributes with the winPlacePerc.
 
@@ -229,7 +229,7 @@ highest positive correlation was found between winPlacePerc and
 walkingDistance. The highest negative correlation was found between
 killPlace and winPlacePerc.
 
-###FEATURE ENGINEERING:
+### FEATURE ENGINEERING:
 
 The first variable we would create would be players joined. Some of the
 games in PUBG isn’t full of players. We don’t know if a game has 100
@@ -267,7 +267,7 @@ are highly correlated with winPlacePerc. Now we would use the old and
 the new attributes as our feature set for our machine learning model.
 
 
-###TRAINING:
+### TRAINING:
 
 Initially I took a sample of 500,000 rows from our dataset for training our
 algorithm. Later on, when I have a decent accuracy I will take the full
@@ -283,7 +283,7 @@ algorithms that works with both classification and regression problems.
 Even without tuning the hyperparameters it gives great results all the time.
 
 
-####Random Forest:
+### Random Forest:
 
 Random Forest is a machine learning algorithm that creates multiple
 decision trees and merges them together to give a more accurate
@@ -299,7 +299,8 @@ decision tree is on an individual scale a weak learner and gets merged with
 many other decision trees to produce a strong learner or a random forest
 algorithm.
 
-###Feature Importance:
+#### Feature Importance:
+
 A great feature of random forest algorithm is feature importance. Feature
 importance ranks the relative importance of every attribute for the
 prediction. The feature importance function we use from sklearn library
@@ -310,26 +311,26 @@ Hyperparameters:
 Hyperparameters are important parameters that can tweaked in a
 machine learning model to improve the accuracy or speed of the model.
 The important hyperparameters of random forest for us would be:
-1. N estimators
+* N estimators
 The first parameter would be the number of trees in the model. These
 number of trees is the number of trees the algorithm creates before
 doing majority voting or averaging. This hyperparameter on average
 increases the performance and makes them more composed.
-2. Max features
+* Max features
 This hyper-parameter specifies the highest number of attributes a
 Random Forest algorithm is allowed to use in one tree.
 
-3. Minimum sample leaf
+* Minimum sample leaf
 This parameter specifies the minimum number of leafs that are
 necessary for an internal node to split.
 RESULTS
 After splitting the data into training and validation set. For the first attempt
 we train our first basic random forest model with the following
 parameters:
-● n_estimators=40
-● min_samples_leaf=3
-● max_features='sqrt'
-● n_jobs=-1
+* n_estimators=40
+* min_samples_leaf=3
+* max_features='sqrt'
+* n_jobs=-1
 This gives us the following results:
 Mean Absolute Error:
 Training set: 0.0392
@@ -342,19 +343,19 @@ tweaking some hyper-parameters.
 If we take a closer look into the Feature Importance table of the first
 attempt Random Forest we can see that the top features which are useful
 for the model are
-● walkDistance
-● totalDistance
-● killPlace
+* walkDistance
+* totalDistance
+* killPlace
 
 Since we now know the top features for the random forest by analysing the
 feature importance table.
 This time in our second attempt for the Random Forest Algorithm we
 would only use the most valuable features.
 Second random forest model with the following parameters:
-● n_estimators=80
-● min_samples_leaf=3
-● max_features='sqrt'
-● n_jobs=-1
+* n_estimators=80
+* min_samples_leaf=3
+* max_features='sqrt'
+* n_jobs=-1
 This gives us the following results:
 Mean Absolute Error:
 Training set: 0.0218
@@ -366,18 +367,18 @@ for the model.
 
 We take a look at the Feature Importance for this Random Forest. The top
 features from the feature importance table are:
-● walkDistance
-● killPlace
-● totalDistance
+* walkDistance
+* killPlace
+* totalDistance
 If you carefully compare the first and second feature importance plot you
 can notice some changes such as the 2nd and the 3rd most important
 attributes get their places interchanged.
 Finally after playing with hyper-parameters we found our best score. The
 last random forest model with the following parameters:
-● n_estimators=70
-● min_samples_leaf=3
-● max_features= 0.5
-● n_jobs=-1
+* n_estimators=70
+* min_samples_leaf=3
+* max_features= 0.5
+* n_jobs=-1
 
 This gives us the following results:
 Mean Absolute Error:
@@ -387,7 +388,7 @@ This is a really low absolute mean error and it makes our algorithm rank
 33/988 on Kaggle.
 
 
-###CONCLUSION
+### CONCLUSION
 
 In this Kaggle Challenge: PUBG Finish Placement Prediction, firstly we
 explained what PUBG as a game is and it’s different features. Then we
@@ -404,3 +405,5 @@ the match based on their end game statistics with MAE(Mean Absolute
 Error) of 0.0200.
 
 Reference: “https://www.kaggle.com/c/pubg-finish-placement-prediction/”
+
+#### Link to Kaggle Profile:
