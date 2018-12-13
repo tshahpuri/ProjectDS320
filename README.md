@@ -98,7 +98,7 @@ We will plot the PUBG data to dive deeper into Killing strategy.
 
 Plot: Kill Counts of Players
 
-![alt text](https://www.dropbox.com/s/texf5l1t78n7vbn/Screenshot%202018-12-12%2023.15.28.png?dl=0)
+![alt text](https://previews.dropbox.com/p/thumb/AAS8MCdE5vMRG-jXG9uT0-U1fdnSZpjupVk4bLVBDh2Lxam1TaqG1CSVf1rUvwvuz-h7cG2yfwV3NkdcHtBZfaDozbwUCMbGIAQ1XpYNcqYJbuzKuulk3mLGrsSf7tBVKYD20TtDOg3MR8TDSZMIcZL-4s3DLAsoqSsplA_-RI-RGC_ed8F9K70rraPFLe-XKgffG2UZNzcsiMFXN1RoJ6RvmFXcyXKW92ZIH7D4Hyba8lXY91IM9vfhyzPXmXDYVJ8/p.png?size=2048x1536&size_mode=3)
 
 This is a count plot which reflects the distribution of the attribute “kills” (number
 of enemy players killed by a player).
