@@ -98,7 +98,7 @@ We will plot the PUBG data to dive deeper into Killing strategy.
 
 Plot: Kill Counts of Players
 
-![alt text](https://i.gadgets360cdn.com/large/pubg-hero_1542612006074.jpg)
+![alt text](https://www.dropbox.com/s/texf5l1t78n7vbn/Screenshot%202018-12-12%2023.15.28.png?dl=0)
 
 This is a count plot which reflects the distribution of the attribute “kills” (number
 of enemy players killed by a player).
@@ -110,7 +110,7 @@ opponent?
 
 Plot: Damage dealt by people who kill 0 people in the game
 
-![alt text](https://i.gadgets360cdn.com/large/pubg-hero_1542612006074.jpg)
+![alt text](https://www.dropbox.com/s/5spzn35sefraxho/Screenshot%202018-12-12%2023.16.18.png?dl=0)
 
 
 This is a distribution plot which reflects the distribution of the attribute
@@ -125,7 +125,7 @@ In our further data analysis for killers we find out that,
 
 Plot: winPlacePerc(win placement percentage) vs kills
 
-![alt text](https://i.gadgets360cdn.com/large/pubg-hero_1542612006074.jpg)
+![alt text](https://www.dropbox.com/s/337lonkqpvrw7na/Screenshot%202018-12-12%2023.16.44.png?dl=0)
 
 This is a joint plot which reflects the relationship between the attribute “kills” and
 “winPlacePerc”.
