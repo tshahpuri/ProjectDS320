@@ -411,4 +411,4 @@ Error) of 0.0200.
 
 Reference: “https://www.kaggle.com/c/pubg-finish-placement-prediction/”
 
-#### Link to Kaggle Profile:
+#### Link to Kaggle Profile:https://tshahpuri.github.io/ProjectDS320/
