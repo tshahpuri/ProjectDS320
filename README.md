@@ -98,7 +98,7 @@ We will plot the PUBG data to dive deeper into Killing strategy.
 
 Plot: Kill Counts of Players
 
-![alt text](https://drive.google.com/file/d/0Bw1ImD6Kc0GcT1lUZ1lYVWl5M1d2V1h3RFduMzFVNnNIaEtn/view?usp=sharing)
+![alt text](https://raw.githubusercontent.com/tshahpuri/ProjectDS320/master/Screenshot%202018-12-12%2023.15.28.png)
 
 This is a count plot which reflects the distribution of the attribute “kills” (number
 of enemy players killed by a player).
@@ -110,7 +110,7 @@ opponent?
 
 Plot: Damage dealt by people who kill 0 people in the game
 
-![alt text](https://www.dropbox.com/s/5spzn35sefraxho/Screenshot%202018-12-12%2023.16.18.png?dl=0)
+![alt text](https://raw.githubusercontent.com/tshahpuri/ProjectDS320/master/Screenshot%202018-12-12%2023.16.18.png)
 
 
 This is a distribution plot which reflects the distribution of the attribute
@@ -125,7 +125,7 @@ In our further data analysis for killers we find out that,
 
 Plot: winPlacePerc(win placement percentage) vs kills
 
-![alt text](https://www.dropbox.com/s/337lonkqpvrw7na/Screenshot%202018-12-12%2023.16.44.png?dl=0)
+![alt text](https://raw.githubusercontent.com/tshahpuri/ProjectDS320/master/Screenshot%202018-12-12%2023.16.44.png)
 
 This is a joint plot which reflects the relationship between the attribute “kills” and
 “winPlacePerc”.
@@ -137,7 +137,7 @@ the percentage of winning we create a boxplot by grouping players by kills
 
 Plot: winPlacePerc(win placement percentage) vs Kills
 
-![alt text](https://i.gadgets360cdn.com/large/pubg-hero_1542612006074.jpg)
+![alt text](https://raw.githubusercontent.com/tshahpuri/ProjectDS320/master/Screenshot%202018-12-12%2023.20.46.png)
 
 This is a box plot reflects the distribution of the attribute “winPlacePerc” (number
 of enemy players killed by a player).
@@ -155,7 +155,7 @@ We will plot the PUBG data to dive deeper into Running strategy.
 
 Plot: Walking distance distribution of players
 
-![alt text](https://i.gadgets360cdn.com/large/pubg-hero_1542612006074.jpg)
+![alt text](https://raw.githubusercontent.com/tshahpuri/ProjectDS320/master/Screenshot%202018-12-12%2023.17.05.png)
 
 This is a distribution plot which reflects the distribution of the attribute “walking
 Distance” of players in the game.
@@ -168,7 +168,7 @@ parachute.
 
 Plot: winPlacePerc(win placement percentage) vs walkDistance
 
-![alt text](https://i.gadgets360cdn.com/large/pubg-hero_1542612006074.jpg)
+![alt text](https://raw.githubusercontent.com/tshahpuri/ProjectDS320/master/Screenshot%202018-12-12%2023.17.16.png)
 
 
 This is a joint plot which reflects the relationship between the attribute
@@ -186,7 +186,7 @@ We will plot the PUBG data to dive deeper into Driving strategy.
 
 Plot: rideDistance of players in the game
 
-![alt text](https://i.gadgets360cdn.com/large/pubg-hero_1542612006074.jpg)
+![alt text](https://raw.githubusercontent.com/tshahpuri/ProjectDS320/master/Screenshot%202018-12-12%2023.17.24.png)
 
 This is a distribution plot which reflects the distribution of the attribute
 “rideDistance” of players.
@@ -198,7 +198,7 @@ should be an important attribute in predicting winPlacePerc.
 
 Plot: winPlacePerc(win placement percentage) vs rideDistance
 
-![alt text](https://i.gadgets360cdn.com/large/pubg-hero_1542612006074.jpg)
+![alt text](https://raw.githubusercontent.com/tshahpuri/ProjectDS320/master/Screenshot%202018-12-12%2023.17.34.png)
 
 This is a joint plot which reflects the relationship between the attribute “kills” and
 “rideDistance”.
@@ -244,7 +244,7 @@ of players in a game.
 
 Plot: playersJoined distribution plot
 
-![alt text](https://i.gadgets360cdn.com/large/pubg-hero_1542612006074.jpg)
+![alt text](https://raw.githubusercontent.com/tshahpuri/ProjectDS320/master/Screenshot%202018-12-12%2023.18.00.png)
 
 In this plot we can see that most of the games have more than 95 players.
 To normalize the values of other attributes we can use the “playersJoined”
